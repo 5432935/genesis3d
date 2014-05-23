@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ttf2pcx - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\RALPHD~1\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR".\Debug/" /Fp".\Debug/ttf2pcx.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"D:\Release\Tools\ttf2pcx\character.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\RALPHD~1\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\RALPHD~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:".\Debug/ttf2pcx.pdb" /debug /machine:I386 /out:".\Debug/ttf2pcx.exe" 
+.\Debug\character.obj
+.\Debug\ColorButton.obj
+.\Debug\ColourPopup.obj
+.\Debug\PreviewButton.obj
+.\Debug\StdAfx.obj
+.\Debug\ttf2pcx.obj
+.\Debug\ttf2pcxdlg.obj
+.\Debug\ttf2pcx.res
+]
+Creating command line "link.exe @C:\DOCUME~1\RALPHD~1\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling...
+character.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ttf2pcx.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
